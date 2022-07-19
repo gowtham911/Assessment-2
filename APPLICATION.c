@@ -1,10 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include <string.h>
+#include<string.h>
+
 int Search_in_File(char *fname, char *str) {
 	FILE *fp;
-	int line_num = 1;
-	int find_result = 0;
 	char temp[512];
 	char *p;
 	if((fp = fopen(fname, "r")) == NULL) {
