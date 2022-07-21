@@ -7,6 +7,6 @@ APPLICATION.c - It will list out the unused functions in the input C program pro
 
 Input/Output format for APPLICATION.c
 
-Input: $./APPLICATION.out <<folder path of the input C program project>>
+Input: $./APPLICATION.out <<\folder path of the input C program project\>>
 
 Output: The Unused functions of the input C program project will be listed in the console.
